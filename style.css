@@ -1,0 +1,384 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Visby Round CF;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F1FF;
+}
+
+.footer .footer-item{
+    background-color: #461874;
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-item  a{
+    list-style: none;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.short{
+    position: fixed;
+    top: 86vh;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius:100%;
+    background-color: #612999;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.short div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    color: #612999;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.short i {
+    font-size: 30px;
+}
+
+.width{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.w-autoLimit{
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    height: 100%;
+    padding: 71px 0px 0px 0px;
+    min-height: 550px;
+    background: url(img/Trazado.png) no-repeat center;
+    background-size: 495%;
+    background-position-x: -499px;
+    background-position-y: -358px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header_ul li{
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.header_section{
+    margin-top: 50px;
+}
+
+.header_section--article{
+    max-width: 355px;
+}
+
+.header_section--article_title h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: #612999;
+    margin-top: 0px;
+    margin-bottom: 47px;
+}
+
+.header_section--article_title p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 47px;
+}
+
+.header_section--article_search label input{
+    width: 292px;
+    height: 43px;
+    border-radius: 46.5px;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 45px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.header_section--article_search figure{
+    width: 42px;
+    height: 42px;
+    background-color:#612999;
+    border-radius: 100%;
+}
+
+.header_section--article_search figure img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.header_section_conteiner{
+    margin-top: 50px;
+    justify-content:end;
+}
+.header_section_conteiner--card{
+    color: white;
+    padding: 10px 33px;
+    background-color: rgba(111, 149, 81, 0.5);
+    width: 100%;
+}
+.header_section_conteiner__card--parrafo .parrafo{
+    margin-top: 10px;
+}
+
+.header_section_conteiner__card--title .porcentaje{
+    width: 60px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Visby Round CF";
+    background: rgb(62, 117, 42);
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.header_section_conteiner__card--parrafo .precio{
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+}
+
+
+.dho{
+    background-color:rgba(228, 170, 20, 0.5) !important;
+}
+
+.dho .porcentaje{
+    background-color:rgb(251, 196, 0) !important;
+}
+
+.three{
+    background-color: rgba(106, 86, 125, 0.5) !important;
+}
+.three .porcentaje{
+    background-color: rgb(97, 41, 153) !important;
+}
+
+
+.contenedor{
+        display: inline-block;
+        width: 80%;
+        margin: auto;
+}
+
+.filtro{
+    transform: rotate(-180deg);
+    height: 100%;
+}
+
+.filtro div {
+    padding: 10px;
+    background-color: #461874;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
+#bebidas.minimizar{
+    height: 0px;
+    display: none;
+}
+
+.filtro article{
+    padding: 10px 0px;
+    /* width: 900px; */
+    margin: auto;
+    transform: rotate(180deg);
+    color: #461874;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.filtro article ul{
+    opacity: 0.5;
+    background-color:#461874;
+    color: #F5F1FF;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.filtro article ul li{
+    text-align: center;
+    padding: 10px 15px;
+    transition: 0.4s;
+}
+
+.filtro article ul li:hover{
+    color: white;
+    background-color: #461874;
+}
+
+.filtro article ul li.estado{
+    color: white;
+    background-color: #461874;
+}
+
+
+@media (min-width: 910px){
+    section .grid{
+        grid-template-columns: repeat(3,1fr) ;
+        grid-gap: 58px;
+    }
+
+    section .grid .grid_cars{
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 29px;
+    }
+
+    .text-conteiner .cars-item__precio{
+        margin: 0;
+    }
+    .text-conteiner .cars-item__precio p{
+        font-size: 2rem;
+    }
+
+    .text-conteiner .cars-item__precio figure{
+        width: 63px;
+        height: 63px;
+    }
+
+    .filtro div{
+        display: none;
+    }
+    .header{
+        /* height: 100vh; */
+        min-height:550px;
+        background: url(img/Trazado.png) no-repeat center;
+        background-position-y: -358px;
+    }
+
+    .header_section--article_title h1{
+        font-size: 110px;
+    }
+
+    .header_section--article_title p {
+        font-size:18px;
+    }
+
+    .header_section_conteiner{
+        display: flex;
+        justify-content: end;
+    }
+    .contenedor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin: 0;
+    }
+    .header_section_conteiner--card{
+        width:283px;
+        padding: 10px 33px;
+        background-color: rgba(111, 149, 81, 0.5);
+        border-radius: 19px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .header_section_conteiner--card:nth-child(3){
+        margin: 0;
+    }
+    .header_section_conteiner__card--parrafo .parrafo{
+        font-weight: 400;
+        font-size: 13px;
+        font-style: normal;
+        margin: 10px 0px;
+    }
+    
+    .header_section_conteiner__card--parrafo .parrafo{
+        font-weight: 400;
+        font-size: 13px;
+        font-style: normal;
+    }
+
+    .filtro{
+        width:100%;
+        margin-top:20px;
+        height:70px;
+        background: linear-gradient(180deg, #F5F1FF 0%, rgba(245, 241, 255, 0) 100%);
+    }
+
+    .filtro article{
+        padding: 10px 0px;
+        width: 900px;
+        margin: auto;
+        transform: rotate(180deg);
+        color: #461874;
+        font-size:20px;
+        font-weight:bold;
+    }
+
+    .filtro article ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    .filtro article ul li{
+        padding: 10px 15px;
+        transition: 0.4s;
+    }
+
+    .filtro article ul li:hover{
+        color: white;
+        background-color: #461874;
+    }
+
+    .filtro article ul li.estado{
+        color: white;
+        background-color: #461874;
+    }
+
+}
+
+
+@media (min-width: 1128px){
+
+    section .grid{
+        grid-template-columns: repeat(4,1fr) ;
+    }
+}

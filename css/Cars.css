@@ -1,0 +1,104 @@
+/*Seccion de productos*/
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-product h2{
+    margin-top: 50px;
+    margin-bottom:50px;
+    color: #47137C;
+    font-size: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}
+.grid{
+    grid-template-columns: repeat(1,1fr) ;
+  }
+
+.grid_cars{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    border-radius: 38px;
+}
+
+.grid_cars{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+}
+
+.cars-item{
+    width: 100%;
+}
+
+.cars-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 38px;
+}
+
+
+.text-conteiner{
+    padding: 0px 29px;
+}
+
+.cars-item .cars-item__title{
+    margin-top:20px;
+    font-size: 24px;
+}
+
+.cars-item .cars-item__parrafo{
+    color: #C8C8C8;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.cars-item__precio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cars-item__precio figure{
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+    background-color: #47137C;
+}
+
+.cars-item__precio p{
+    color: #612999;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.cars-item__precio figure img{
+    width: 60%;
+    margin: auto;
+}
+
+.limit-heart{
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.limit-heart figure{
+    border-radius: 50%;
+    background-color: white;
+    padding:5px;
+}
+
+.cars-item figure img{
+    cursor: pointer;
+}

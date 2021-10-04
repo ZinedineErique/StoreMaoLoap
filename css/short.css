@@ -1,0 +1,136 @@
+.shor-desplegar{
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    height:100vh;
+    width: 450px;
+    border-radius: 50px 0px 0px 50px;
+    z-index: 1000;
+    padding: 20px 10px;
+}
+
+.D_shopping{
+    right: 0px ;
+}
+
+/* .shopping-desplegar.D_shoppingOpen{
+    right: 0;
+} */
+
+.short{
+    cursor:pointer;
+}
+
+.shopping-limit{
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.shor-d_item .shopping-Title{
+    padding: 20px 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-Title .shopping-text{
+    color: #461874;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shopping-logo{
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-logo img{
+    width: 100%;
+}
+
+.shopping-close{
+    font-size:27px;
+    color: #461874;
+    cursor: pointer;
+}
+
+.shor-d_item:nth-child(2){
+    /* background-color: rgb(199, 44, 44); */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.shor-list:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.shor-list_figure{
+    border-radius: 35px;
+    width: 250px;
+}
+
+.shor-list_figure img{
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.shor-list_text{
+
+}
+
+.shor-list_text h2{
+    color: #461874;
+}
+
+.shor-list_text p{
+    color: #AE8DD0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shor-list_text .precio{
+    margin-top:10px;
+}
+
+.shor-action{
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shor-action div:nth-child(1), .shor-action div:nth-child(3){
+    width: 16px;
+    height: 16px;
+    padding: 8px;
+    border-radius:3.5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(97, 41, 153, 0.2);;
+    color: #461874;
+    font-weight: bold;
+}
+
+.shor-action div:nth-child(3){
+    color: white;
+    background-color: #461874;
+}
+
+.short-list_figure--Delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
