@@ -212,7 +212,7 @@
 
 
 
-@media (min-width:640px) and (min-height: 360px){
+@media (min-width:640px) and (min-height: 200px){
 
     .short{
         top: 75vh;
@@ -265,4 +265,8 @@
     .content-mobil .content-mobil__text{
         width: 100%;
     }
+}
+
+@media (min-width: 375px) and (min-width: 200px){
+    
 }
