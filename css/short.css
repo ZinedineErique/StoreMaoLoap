@@ -23,6 +23,16 @@
     cursor:pointer;
 }
 
+.content-grid::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.content-grid::-webkit-scrollbar-thumb{
+    background-color: #AE8DD0;
+    opacity: 0.4s;
+    border-radius: 15px;
+}
+
 .shopping-limit{
     max-width: 80%;
     margin: 0px auto;
