@@ -78,7 +78,7 @@ const template_carrito = (arreglo)=>{
                     </div>
                 </div>
                 <figure  data-id="${producto.id}" class="content_Delete">
-                    <img data-id="${producto.id}" class="delete_element" src="/icons/Grupo3.svg" alt="delete">
+                    <img data-id="${producto.id}" class="delete_element" src="https://zinedineerique.github.io/StoreMaoLoap/icons/Grupo3.svg" alt="delete">
                 </figure>
             </div>
         </div>
