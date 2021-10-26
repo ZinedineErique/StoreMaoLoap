@@ -72,6 +72,15 @@
     height: 45px;
     border-radius:50%;
     background-color: #47137C;
+    background-image: url(../icons/carrito.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+}
+
+.cars-item__precio figure:hover{
+    background-color: #612999;
 }
 
 .cars-item__precio p{
@@ -102,3 +111,8 @@
 .cars-item figure img{
     cursor: pointer;
 }
+
+.action{
+    cursor: pointer;
+}
+

@@ -117,6 +117,7 @@
     border: none;
     background-color: #612999;
     letter-spacing: 0.35rem;
+    cursor: pointer;
 }
 
 .content-grid .shor-d_item{
@@ -206,6 +207,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .content-mobil{
